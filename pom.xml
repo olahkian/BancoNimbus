@@ -86,6 +86,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<!-- Defina aqui a classe principal -->
+					<mainClass>com.olah.banconimbus.Application</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
